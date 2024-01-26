@@ -130,3 +130,4 @@ C:\Users\10390\Desktop\TRY\Avalonia\Avalonia_MammaMia\Avalonia_MammaMia\obj\Debu
 C:\Users\10390\Desktop\TRY\Avalonia\Avalonia_MammaMia\Avalonia_MammaMia\obj\Debug\net8.0\Avalonia_MammaMia.genruntimeconfig.cache
 C:\Users\10390\Desktop\TRY\Avalonia\Avalonia_MammaMia\Avalonia_MammaMia\obj\Debug\net8.0\ref\Avalonia_MammaMia.dll
 C:\Users\10390\Desktop\TRY\Avalonia\Avalonia_MammaMia\Avalonia_MammaMia\bin\Debug\net8.0\CommunityToolkit.Mvvm.dll
+C:\Users\10390\Desktop\TRY\Avalonia\Avalonia_MammaMia\Avalonia_MammaMia\obj\Debug\net8.0\Avalonia_MammaMia.sourcelink.json
