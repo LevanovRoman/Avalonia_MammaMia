@@ -2,7 +2,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Avalonia_MammaMia.ViewModels;
 
-public class TextPageViewModel : ViewModelBase
+public partial class TextPageViewModel : ViewModelBase
 {
-    // [ObservableProperty] private bool _isTextEnabled = true;
+    [ObservableProperty] private bool _isTextEnabled = true;
 }

@@ -40,7 +40,7 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[11.0.6, )"
+              "version": "[11.0.7, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
@@ -54,13 +54,17 @@
               "target": "Package",
               "version": "[11.0.6, )"
             },
-            "Avalonia.Themes.Fluent": {
-              "target": "Package",
-              "version": "[11.0.6, )"
-            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
+            },
+            "FluentAvaloniaUI": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

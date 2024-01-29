@@ -29,11 +29,23 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/ButtonPageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/DragAndDropPageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/GridPageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/HomePageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/ImagePageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/TextPageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/ValueSelectionPageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
