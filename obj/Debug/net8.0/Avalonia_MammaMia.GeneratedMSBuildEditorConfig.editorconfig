@@ -32,6 +32,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/DragAndDropPageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/FilePageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/10390/Desktop/TRY/Avalonia/Avalonia_MammaMia/Avalonia_MammaMia/Views/GridPageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
