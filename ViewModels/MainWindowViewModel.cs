@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media;
@@ -14,7 +16,7 @@ public partial class MainWindowViewModel : ViewModelBase
     private bool _isPaneOpen = true;
 
     // [ObservableProperty] private ViewModelBase _currentPage = new HomePageViewModel();
-    [ObservableProperty] private ViewModelBase _currentPage = new FilePageViewModel();
+    [ObservableProperty] private ViewModelBase _currentPage = new HomePageViewModel();
 
     [ObservableProperty]
     private ListItemTemplate? _selectedListItem;
@@ -39,18 +41,42 @@ public partial class MainWindowViewModel : ViewModelBase
         new ListItemTemplate(typeof(FilePageViewModel), "TapDoubleRegular"),
     };
     
-    public ObservableCollection<ListItemTemplate2> Items2 { get; } = new()
+    // public ObservableCollection<ListItemTemplate2> Items2 { get; } = new()
+    // {
+    //     new ListItemTemplate2(typeof(FilePageViewModel), "TapDoubleRegular"),
+    //
+    //     new ListItemTemplate2(typeof(HomePageViewModel), "HomeRegular"),
+    //     new ListItemTemplate2(typeof(ButtonPageViewModel), "CursorHoverRegular"),
+    //     new ListItemTemplate2(typeof(TextPageViewModel), "TextNumberFormatRegular"),
+    //     new ListItemTemplate2(typeof(ValueSelectionPageViewModel), "CalendarCheckmarkRegular"),
+    //     new ListItemTemplate2(typeof(ImagePageViewModel), "ImageRegular"),
+    //     new ListItemTemplate2(typeof(GridPageViewModel), "GridRegular"),
+    //     new ListItemTemplate2(typeof(DragAndDropPageViewModel), "TapDoubleRegular"),
+    // };
+    
+    public static List<String> ItemsTry()
     {
-        new ListItemTemplate2(typeof(FilePageViewModel), "TapDoubleRegular"),
+        List<string> listFiles = new List<string>();
+        var dir = new DirectoryInfo(@"C:\Users\10390\Desktop\TRY\Avalonia\Test_mvvm\Test_mvvm"); // папка с файлами 
+           
+        foreach (FileInfo file in dir.GetFiles()) 
+        {
+            listFiles.Add(Path.GetFileNameWithoutExtension(file.FullName));
+        }
 
-        new ListItemTemplate2(typeof(HomePageViewModel), "HomeRegular"),
-        new ListItemTemplate2(typeof(ButtonPageViewModel), "CursorHoverRegular"),
-        new ListItemTemplate2(typeof(TextPageViewModel), "TextNumberFormatRegular"),
-        new ListItemTemplate2(typeof(ValueSelectionPageViewModel), "CalendarCheckmarkRegular"),
-        new ListItemTemplate2(typeof(ImagePageViewModel), "ImageRegular"),
-        new ListItemTemplate2(typeof(GridPageViewModel), "GridRegular"),
-        new ListItemTemplate2(typeof(DragAndDropPageViewModel), "TapDoubleRegular"),
-    };
+        return listFiles;
+    }
+
+    public List<String> Items2 { get; } = ItemsTry();
+    
+    // public List<String> Items2 { get; } = new()
+    // {
+    //     "File1",
+    //     "File2",
+    //     "File3",
+    //     "File4",
+    //     "File5",
+    // };
     
     
 
